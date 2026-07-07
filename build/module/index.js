@@ -1,0 +1,4 @@
+import OpenTelemetryReporter from './lib/reporter';
+export default OpenTelemetryReporter;
+export * from './lib/reporter';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxxQkFBcUIsTUFBTSxnQkFBZ0IsQ0FBQztBQUVuRCxlQUFlLHFCQUFxQixDQUFDO0FBQ3JDLGNBQWMsZ0JBQWdCLENBQUMifQ==
