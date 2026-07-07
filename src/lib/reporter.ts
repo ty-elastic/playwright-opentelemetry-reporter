@@ -36,7 +36,7 @@ class OpenTelemetryReporter implements Reporter {
   }
 
   onTestBegin(test: TestCase, result: TestResult): void {
-    const testSpan = this.tracer.startSpan(formatTestTitle(this.config, test), {
+    const testSpan = this.tracer.startSpan(formatTestTitle(this.config, test, null, true), {
       startTime: result.startTime,
     });
     this.testSpans[test.id] = testSpan;

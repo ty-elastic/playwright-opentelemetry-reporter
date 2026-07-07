@@ -1,3 +1,3 @@
-export const name = '@aergonaut/playwright-opentelemetry-reporter';
+export const name = '@ty-elastic/playwright-opentelemetry-reporter';
 
-export const version = '0.2.0'; // x-release-please-version
+export const version = '0.2.1'; // x-release-please-version

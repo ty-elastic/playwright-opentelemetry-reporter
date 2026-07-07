@@ -1,11 +1,14 @@
 {
-  "name": "@aergonaut/playwright-opentelemetry-reporter",
-  "version": "0.2.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "name": "@ty-elastic/playwright-opentelemetry-reporter",
+  "version": "0.2.1",
   "description": "OpenTelemetry reporter for Playwright Test",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/aergonaut/playwright-opentelemetry-reporter",
+  "repository": "https://github.com/ty-elastic/playwright-opentelemetry-reporter",
   "license": "MIT",
   "keywords": [
     "playwright",
